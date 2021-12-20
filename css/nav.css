@@ -9,13 +9,12 @@ header {
   position: relative;
   margin: 0 auto;
   padding: 0 16px;
-  max-width: calc(100vw - 5%);
+  max-width: calc(100vw - 8%);
 }
 
 .items-container {
   display: flex;
   justify-content: space-between;
-  align-items:
   min-height: 60px;
   padding: 1.8rem 0;
 }
@@ -38,8 +37,12 @@ header {
   list-style: none;
 }
 
-.nav-item, .nav-bars {
+.nav-item {
   padding: .5rem 1.6rem;
+}
+
+.nav-bars {
+  padding: .5rem 0;
 }
 
 .nav-link {
@@ -47,4 +50,5 @@ header {
   text-decoration: none;
   font-size: 18px;
   letter-spacing: .3px;
+  transition: all .3s ease;
 }

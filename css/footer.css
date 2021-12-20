@@ -1,0 +1,42 @@
+.flex-footer {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer {
+  padding: 0 2.5rem .5rem 2.5rem;
+}
+
+.footer p {
+  align-self: center;
+  padding-left: 1rem;
+}
+
+.footer p, .footer ul li a {
+  opacity: .8;
+  font-size: .9rem;
+}
+
+.footer ul li a, .footer p {
+  color: #fff;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.footer ul li {
+  padding: 1rem;
+  letter-spacing: 2px;
+}
+
+.footer ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}

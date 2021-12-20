@@ -19,6 +19,14 @@
   margin-bottom: 1.6rem;
 }
 
+.input-group input::-moz-placeholder {
+  color: #fff;
+}
+
+.input-group input:-ms-input-placeholder {
+  color: #fff;
+}
+
 .hero h1, .hero p, .hero-form p, .input-group input::placeholder, .form-btn, .hero-form h4, .terms-link {
   color: #fff;
 }
@@ -78,8 +86,28 @@
   border-left: none;
 }
 
+.pass-btn:active {
+  border-bottom-style: none;
+}
+
+.input-group input::-moz-placeholder {
+  opacity: .7;
+}
+
+.input-group input:-ms-input-placeholder {
+  opacity: .7;
+}
+
 .input-group input::placeholder {
   opacity: .7;
+}
+
+.input-group input::-moz-placeholder {
+  font-size: 1.1rem;
+}
+
+.input-group input:-ms-input-placeholder {
+  font-size: 1.1rem;
 }
 
 .input-group input::placeholder, .form-btn {

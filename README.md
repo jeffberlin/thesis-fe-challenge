@@ -61,6 +61,12 @@ Below are things you should not worry about when completing this challenge.
 
 ## Notes:
 
-- Compressed background image
-- Did not link the <form> element
+- I compressed background image (on a fully live page I'd probably do some extra compression)
+- Did not link the <form> element to anything
 - Password show/hide image does not toggle to a new image (without the slash)
+- In a real world scenario, I would ask if the desktop version should be scroll-able when not being resized at all
+- I did not have the Avenir fonts, so just used a fairly close Roboto that was provided in the files
+
+## Design suggestion:
+
+- If the "hamburger" icon does not open a separate menu on desktop, I would recommend removing it and possibly replacing it with another button (i.e. "Sign-in/Login", etc.)
