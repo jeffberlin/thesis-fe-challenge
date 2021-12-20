@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  /* min-height: 100vh; */
+  background-image: url("../images/background-min.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top;
+
+}
+
+@font-face {
+  font-family: robotoBold;
+  src: url(roboto/Roboto-Bold.ttf);
+}
+
+.robo-bold {
+  font-family: robotoBold;
+}
+
+@font-face {
+  font-family: robotoRegular;
+  src: url(roboto/Roboto-Regular.ttf);
+}
+
+.robo-reg {
+  font-family: robotoRegular;
+}
+
+@font-face {
+  font-family: robotoLight;
+  src: url(roboto/Roboto-Light.ttf);
+}
+
+.robo-light {
+  font-family: robotoLight;
+}
+
+@font-face {
+  font-family: robotoMedium;
+  src: url(roboto/Roboto-Medium.ttf);
+}
+
+.robo-med {
+  font-family: robotoMedium;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}

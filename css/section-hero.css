@@ -1,0 +1,126 @@
+.flex-container {
+  justify-content: space-between;
+  padding: 18rem 6rem;
+}
+
+.flex-container, .password-input {
+  display: flex;
+}
+
+.flex-container > div {
+  /* margin: .5rem; */
+  padding: 1.2rem 8rem;
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 5.6rem;
+  line-height: 1.1;
+  margin-bottom: 1.6rem;
+}
+
+.hero h1, .hero p, .hero-form p, .input-group input::placeholder, .form-btn, .hero-form h4, .terms-link {
+  color: #fff;
+}
+
+.hero-text p {
+  font-size: 1.6rem;
+  letter-spacing: .5px;
+  line-height: 1.5;
+}
+
+.hero-form h4 {
+  letter-spacing: 2.2px;
+  margin-bottom: 2.2rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.input-group input {
+  border-left: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.input-group input, .form-btn {
+  width: 100%;
+}
+
+.input-group input, .pass-btn {
+  background: rgba(255, 255, 255, 0.08);
+  outline: none;
+  padding: 1.2rem;
+}
+
+.name-input {
+  border-radius: 5px 5px 0 0;
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.name-input, .email-input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.name-input, .email-input, .pass-btn {
+  border-right: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.email-input, #id_password, .pass-btn {
+  border-top: none;
+}
+
+#id_password {
+  width: 90%;
+  border-right: none;
+  border-radius: 0;
+  border-bottom: none;
+}
+
+.pass-btn {
+  border-left: none;
+}
+
+.input-group input::placeholder {
+  opacity: .7;
+}
+
+.input-group input::placeholder, .form-btn {
+  font-size: 1.1rem;
+}
+
+.input-group {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-btn {
+  background: #2C99ED;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: 0 0 5px 5px;
+  padding: 1.3rem;
+}
+
+.form-btn, .terms-link {
+  transition: all .3s ease;
+}
+
+.form-btn:hover {
+  background: rgba(44,153,237,0.8);
+}
+
+.form-btn:hover, #togglePassword:hover {
+  cursor: pointer;
+}
+
+.hero-form p {
+  letter-spacing: .3px;
+  line-height: 1.8;
+  font-size: .9rem;
+}
+
+.terms-link {
+  text-decoration: none;
+}
+.terms-link:hover {
+  text-decoration: underline;
+}

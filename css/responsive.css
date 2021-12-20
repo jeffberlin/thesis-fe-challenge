@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container > div {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+
+    width: 100%;
+
+    text-align: center;
+    transition: 0.3s;
+
+  }
+
+  /* .nav-menu.active {
+    left: 0;
+  } */
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  /* .hamburger {
+    display: block;
+    cursor: pointer;
+  } */
+}
+
+@media (max-width: 700px) {
+  body {
+    background-size: cover;
+  }
+}
