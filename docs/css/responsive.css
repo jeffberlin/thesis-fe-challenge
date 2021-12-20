@@ -18,9 +18,9 @@
   .navbar-list.responsive {
     float: none;
     text-align: center;
-    padding-top: 3rem;
+    margin-top: 3rem;
   }
-  
+
   .navbar-list.responsive, .navbar-list.responsive .nav-list {
     display: block;
   }

@@ -3,11 +3,7 @@
   padding: 0;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-html {
+*, *::before, *::after, html {
   box-sizing: border-box;
 }
 
@@ -19,6 +15,7 @@ html, body {
   margin-left: auto;
   margin-right: auto;
   min-width: 100%;
+  min-height: 100vh;
   background-image: url("../images/background-min.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
