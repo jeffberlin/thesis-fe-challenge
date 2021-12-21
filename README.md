@@ -61,6 +61,8 @@ Below are things you should not worry about when completing this challenge.
 
 ## Notes:
 
+Live GitHub Pages link: https://jeffberlin.github.io/thesis-fe-challenge/
+
 - I compressed background image (on a fully live page I'd probably do some extra compression)
 - Did not link the <form> element to anything
 - Password show/hide image does not toggle to a new image (without the slash)
