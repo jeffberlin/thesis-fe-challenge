@@ -11,7 +11,19 @@ header {
   min-height: 60px;
   margin: 0 auto;
   max-width: calc(2rem + 92vw);
-  padding: 2rem 1rem;
+  padding: 1.5rem 1rem;
+}
+
+.header-logo {
+  padding: 1rem 0;
+}
+
+.navbar-list {
+  padding: 1rem;
+}
+
+.navbar-list-icon {
+  padding-top: 1.7rem;
 }
 
 .nav-brand {
@@ -22,6 +34,7 @@ header {
 .navbar-list {
   position: relative;
   z-index: 100;
+  flex-wrap: wrap;
 }
 
 .nav-list {
@@ -36,14 +49,14 @@ header {
   padding: .5rem 1.6rem;
 }
 
-.nav-bars {
-  padding: .5rem 0;
-}
-
 .nav-link {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
   letter-spacing: .3px;
   transition: all .3s ease;
+}
+
+.nav-link:hover {
+  color: #2C99ED;
 }
