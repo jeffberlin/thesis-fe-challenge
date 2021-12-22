@@ -71,4 +71,5 @@ Live GitHub Pages link: https://jeffberlin.github.io/thesis-fe-challenge/
 
 ## Design suggestion:
 
-- If the "hamburger" icon does not open a separate menu on desktop, I would recommend removing it and possibly replacing it with another button (i.e. "Sign-in/Login", etc.)
+- If the "hamburger" icon does not open a separate menu on desktop, I would recommend removing it and possibly replacing it with another button (i.e. "Sign-in/Login", etc.).
+- In my opinion, the responsive footer should maybe be broken up into a new section with its own background because it seems a bit hard to read and the spacing/padding looks like a bit much to me.
